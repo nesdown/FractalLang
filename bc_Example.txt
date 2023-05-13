@@ -1,0 +1,5 @@
+init timeSeries set1
+apply transform gridMapping
+apply analyze boxCounter
+build graph
+build file

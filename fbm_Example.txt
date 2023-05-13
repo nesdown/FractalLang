@@ -1,0 +1,5 @@
+init timeSeries set3
+fillIN [BROWNIAN] set3
+apply forecastRange 500[N]
+apply forecast FBM 
+build graph

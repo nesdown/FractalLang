@@ -1,0 +1,7 @@
+init timeSeries set2
+fillIN set2
+saveSet set2
+apply transform makeStationary
+apply analyze fourier
+build graph
+build file

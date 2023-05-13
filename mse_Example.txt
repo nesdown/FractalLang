@@ -1,0 +1,10 @@
+init timeSeries set4
+fillIN [ENTROPY] set4
+
+init timeSeries [SURROGATE] surSet4
+
+apply forecastRange 500[N]
+apply forecastTarget surSet4
+
+apply forecast MSE 
+build graph
